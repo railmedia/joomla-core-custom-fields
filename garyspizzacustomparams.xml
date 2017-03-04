@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.1" type="plugin" group="content">
+        <name>Gary's Pizza Custom Params</name>
+        <author>Adrian-Emil Tudorache</author>
+		<creationDate>03.03.2017</creationDate>
+		<copyright>Copyright (C) 2017 Rail Media. All rights reserved.</copyright>
+		<authorEmail>adrian@railmedia.ro</authorEmail>
+		<authorUrl>www.railmedia.ro</authorUrl>
+		<version>1.0.0</version>
+        <description>Adds custom parameters to Menu items, articles and more</description>
+        <files>
+                <filename plugin="garyspizzacustomparams">garyspizzacustomparams.php</filename>
+                <filename>index.html</filename>
+				<folder>forms</folder>
+        </files>
+</extension>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+		<fields name="attribs">
+			<fieldset name="attribs" label="Article Config">
+				
+				<field name="content_general" type="note" label="General" />
+				
+				<field name="content_bgpriority" type="list" label="Background Priority">
+					<option value="slider">Slider</option>
+					<option value="background">Background</option>
+				</field>
+				
+				<field name="content_slider" type="note" label="Slider" />
+				
+				<field name="content_article_slider" type="repeatable" icon="list" description="" label="Article background slider" default='
+					{"image":[],
+					"url":[],
+					"target":["_self", "_blank"],
+					"caption":[]
+					}
+					'>
+					<fieldset hidden="true" name="content_article_slider_modal" repeat="true">
+						<field name="image" label="Slider Image" type="media" />
+						<field name="url" label="Image URL" type="text" />
+						<field name="target" type="list" default="self" label="Target">
+							<option value="self">Same Window/Tab</option>
+							<option value="blank">New Window/Tab</option>
+						</field>
+						<field name="content_caption" type="textarea" label="Caption" />
+					</fieldset>
+				</field>
+				
+				<field name="content_bgimage" type="note" label="Background Image" />
+				
+				<field name="content_image" label="Background Image" type="media" />
+			</fieldset>
+		</fields>
+</form>

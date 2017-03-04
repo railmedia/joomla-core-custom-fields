@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+		<fields name="params">
+			<fieldset label="Page/Link Params" name="params">
+				<field name="pagetype" type="list" label="Page Type" default="" required="required">
+					<option value="">- Please Select -</option>
+					<option value="full_slider">Full Slider</option>
+					<option value="content_regular">Content Regular</option>
+					<option value="content_parallax">Content Parallax</option>
+					<option value="locations">Locations</option>
+				</field>
+				<field name="link_container_classes" type="text" label="Link Container Classes" />
+				<field name="link_container_data_attr" type="text" label="Link Container Data Attributes" />
+				<field name="link_classes" type="text" label="Link Classes" />
+				<field name="link_data_toggle" type="text" label="Link Data Toggle" />
+				<field name="link_data_target" type="text" label="Link Data Target" />
+			</fieldset>
+		</fields>
+</form>
