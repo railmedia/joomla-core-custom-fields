@@ -12,9 +12,10 @@
 				
 				<field name="content_slider" type="note" label="Slider" />
 				
-				<field name="content_article_slider" type="repeatable" icon="list" description="" label="Article background slider" default='
+				<field name="content_article_slider" type="repeatable" icon="list" description="You can set one or more images in this tab." label="Article background slider" default='
 					{"image":[],
 					"url":[],
+					"ismodal": [],
 					"target":["_self", "_blank"],
 					"caption":[]
 					}
@@ -22,6 +23,7 @@
 					<fieldset hidden="true" name="content_article_slider_modal" repeat="true">
 						<field name="image" label="Slider Image" type="media" />
 						<field name="url" label="Image URL" type="text" />
+						<field name="ismodal" label="Is Modal" type="checkbox" />
 						<field name="target" type="list" default="self" label="Target">
 							<option value="self">Same Window/Tab</option>
 							<option value="blank">New Window/Tab</option>
@@ -33,6 +35,7 @@
 				<field name="content_bgimage" type="note" label="Background Image" />
 				
 				<field name="content_image" label="Background Image" type="media" />
+				<field name="content_image_caption" label="Background Image Caption" type="text" />
 			</fieldset>
 		</fields>
 </form>

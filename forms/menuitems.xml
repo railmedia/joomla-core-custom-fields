@@ -7,13 +7,24 @@
 					<option value="full_slider">Full Slider</option>
 					<option value="content_regular">Content Regular</option>
 					<option value="content_parallax">Content Parallax</option>
-					<option value="locations">Locations</option>
+					<option value="external_link">External Link</option>
 				</field>
 				<field name="link_container_classes" type="text" label="Link Container Classes" />
 				<field name="link_container_data_attr" type="text" label="Link Container Data Attributes" />
 				<field name="link_classes" type="text" label="Link Classes" />
 				<field name="link_data_toggle" type="text" label="Link Data Toggle" />
 				<field name="link_data_target" type="text" label="Link Data Target" />
+				<field name="link_fa_icon" type="text" label="Link Font Awesome icon" description="Needs to be a Font Awesome valid icon class" />
+				<field name="link_glyphicon_icon" type="text" label="Link Glyphicon icon" description="Needs to be a Glyphicon valid icon class" />
+				<field name="link_icon_position" type="list" label="Link icon position" default="">
+					<option value="after">After Link</option>
+					<option value="before">Before Link</option>
+				</field>
+				<field name="link_image_icon" type="media" label="Link Image" />
+				<field name="link_target" type="list" label="Link opens in" default="">
+					<option value="_self">Same Window/Tab</option>
+					<option value="_blank">New Window/Tab</option>
+				</field>
 			</fieldset>
 		</fields>
 </form>
