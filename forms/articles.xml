@@ -3,13 +3,6 @@
 		<fields name="attribs">
 			<fieldset name="attribs" label="Article Config">
 				
-				<field name="content_general" type="note" label="General" />
-				
-				<field name="content_bgpriority" type="list" label="Background Priority">
-					<option value="slider">Slider</option>
-					<option value="background">Background</option>
-				</field>
-				
 				<field name="content_slider" type="note" label="Slider" />
 				
 				<field name="content_article_slider" type="repeatable" icon="list" description="You can set one or more images in this tab." label="Article background slider" default='
